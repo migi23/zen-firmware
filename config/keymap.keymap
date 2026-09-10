@@ -20,19 +20,19 @@
 
         layer_0 {
             bindings = <
-&kp TAB    &kp Q         &kp W             &kp E  &kp R        &kp T        &kp Y      &kp U      &kp I  &kp O              &kp P          &kp BSPC
-&kp LCTRL  &kp A         &kp S             &kp D  &kp F        &kp G        &kp H      &kp J      &kp K  &kp L              &kp SEMI       &kp ENTER
-&kp LSHFT  &kp Z         &kp X             &kp C  &kp V        &kp B        &kp LANG2  &kp LANG1  &kp N  &kp M              &kp COMMA      &kp DOT    &kp SLASH  &kp UNDER
-&kp CAPS   &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 5  &lt 3 LANG2  &lt 2 LANG1  &kp SPACE  &kp SPACE  &mo 5  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp DEL
+&kp TAB    &kp Q         &kp W             &kp E  &kp R        &kp T        &kp Y         &kp U         &kp I  &kp O              &kp P          &kp BSPC
+&kp LCTRL  &kp A         &kp S             &kp D  &kp F        &kp G        &kp H         &kp J         &kp K  &kp L              &kp SEMI       &kp ENTER
+&kp LSHFT  &kp Z         &kp X             &kp C  &kp V        &kp B        &bt BT_SEL 1  &bt BT_SEL 2  &kp N  &kp M              &kp COMMA      &kp DOT    &kp SLASH  &kp UNDER
+&kp CAPS   &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 5  &lt 3 LANG2  &lt 2 LANG1  &kp SPACE     &kp SPACE     &mo 5  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp DEL
             >;
         };
 
         layer_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &mkp LCLK  &mkp MCLK         &mkp RCLK  &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &kp LC(UP_ARROW)  &mkp MB4   &trans                 &mkp MB5  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &trans            &trans     &trans                 &trans
+&trans  &kp LA(LG(I))         &kp LA(LC(LEFT_ARROW))  &msc SCRL_UP    &kp LA(LC(RIGHT_ARROW))  &kp LC(LA(U))          &kp LA(LG(I))         &kp LA(LC(LEFT_ARROW))  &msc SCRL_UP    &kp LA(LG(RIGHT_ARROW))  &kp LA(LG(U))          &trans
+&trans  &kp RG(LEFT_BRACKET)  &mkp MB1                &msc SCRL_DOWN  &mkp MB2                 &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)  &mkp MB1                &msc SCRL_DOWN  &mkp MB2                 &kp RG(RIGHT_BRACKET)  &trans
+&trans  &kp LG(R)             &kp LA(LC(T))           &mkp MB3        &kp LG(W)                &kp LG(LS(R))          &trans                &trans                  &kp LG(R)       &kp LS(LG(T))            &mkp MB3               &kp LG(W)  &kp LG(LS(R))  &trans
+&trans  &trans                &trans                  &trans          &trans                   &trans                 &trans                &trans                  &trans          &trans                   &trans                 &trans
             >;
         };
 
@@ -65,10 +65,10 @@
 
         layer_shortcut {
             bindings = <
-&trans         &trans     &trans     &trans     &trans     &trans           &trans    &trans           &trans          &trans           &trans         &trans
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &mt LG(R) LG(S)  &kp PLUS  &mt TILDE MINUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp COLON
-&trans         &trans     &trans     &trans     &trans     &kt LS(LG(P))    &trans    &trans           &trans          &trans           &trans         &trans     &trans  &trans
-&trans         &trans     &trans     &trans     &trans     &trans           &trans    &trans           &trans          &trans           &trans         &trans
+&trans         &trans     &trans     &trans     &trans     &trans           &trans         &trans           &trans          &trans           &trans         &trans
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &mt LG(R) LG(S)  &kp LG(LS(P))  &mt TILDE MINUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp COLON
+&trans         &trans     &trans     &trans     &trans     &trans           &trans         &trans           &trans          &trans           &trans         &trans     &trans  &trans
+&trans         &trans     &trans     &trans     &trans     &trans           &trans         &trans           &trans          &trans           &trans         &trans
             >;
         };
 
