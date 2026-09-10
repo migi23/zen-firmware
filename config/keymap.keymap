@@ -27,7 +27,7 @@
             >;
         };
 
-        layer_1 {
+        layer_mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &mkp LCLK  &mkp MCLK         &mkp RCLK  &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &trans
