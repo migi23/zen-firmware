@@ -10,7 +10,7 @@
 
         bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <29>;
+            key-positions = <29 28>;
             layers = <3>;
         };
     };
@@ -20,10 +20,10 @@
 
         layer_0 {
             bindings = <
-&kp TAB    &kp Q         &kp W             &kp E  &kp R  &kp T  &kp Y      &kp U      &kp I  &kp O              &kp P          &kp BSPC
-&kp LCTRL  &kp A         &kp S             &kp D  &kp F  &kp G  &kp H      &kp J      &kp K  &kp L              &kp SEMI       &kp ENTER
-&kp LSHFT  &kp Z         &kp X             &kp C  &kp V  &kp B  &kp LANG2  &kp LANG1  &kp N  &kp M              &kp COMMA      &kp DOT    &kp SLASH  &kp UNDER
-&kp CAPS   &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 5  &mo 3  &mo 2  &kp SPACE  &kp SPACE  &mo 0  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &none
+&kp TAB    &kp Q         &kp W             &kp E  &kp R        &kp T        &kp Y      &kp U      &kp I  &kp O              &kp P          &kp BSPC
+&kp LCTRL  &kp A         &kp S             &kp D  &kp F        &kp G        &kp H      &kp J      &kp K  &kp L              &kp SEMI       &kp ENTER
+&kp LSHFT  &kp Z         &kp X             &kp C  &kp V        &kp B        &kp LANG2  &kp LANG1  &kp N  &kp M              &kp COMMA      &kp DOT    &kp SLASH  &kp UNDER
+&kp CAPS   &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 5  &lt 3 LANG2  &lt 2 LANG1  &kp SPACE  &kp SPACE  &mo 5  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp DEL
             >;
         };
 
@@ -38,10 +38,10 @@
 
         layer_symbol {
             bindings = <
-&kp ESCAPE     &kp EXCL   &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp DELETE
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &mt LG(R) LG(S)  &kp PLUS       &mt TILDE MINUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
-&trans         &trans     &trans     &trans     &trans      &kt LS(LG(P))    &trans         &trans            &kp AT                &kp QUESTION           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ASTRK  &mt GRAVE CARET
-&trans         &trans     &trans     &trans     &trans      &trans           &trans         &trans            &trans                &kp INTERNATIONAL_3    &kp PIPE          &kp BACKSLASH
+&kp ESCAPE     &kp EXCL   &kp DQT    &kp HASH             &kp DOLLAR  &kp PERCENT      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp TILDE
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)            &kp LG(V)   &mt LG(R) LG(S)  &kp PLUS       &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
+&trans         &trans     &trans     &kp INTERNATIONAL_3  &kp PIPE    &kp BACKSLASH    &trans         &trans            &kp AT                &kp QUESTION           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ASTRK  &mt GRAVE CARET
+&trans         &trans     &trans     &trans               &trans      &trans           &trans         &trans            &trans                &trans                 &trans            &trans
             >;
         };
 
@@ -65,10 +65,10 @@
 
         layer_shortcut {
             bindings = <
-&kp ESCAPE     &kp EXCL   &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp DELETE
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &mt LG(R) LG(S)  &kp PLUS       &mt TILDE MINUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
-&trans         &trans     &trans     &trans     &trans      &kt LS(LG(P))    &trans         &trans            &kp AT                &kp QUESTION           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ASTRK  &mt GRAVE CARET
-&trans         &trans     &trans     &trans     &trans      &trans           &trans         &trans            &trans                &kp INTERNATIONAL_3    &kp PIPE          &kp BACKSLASH
+&trans         &trans     &trans     &trans     &trans     &trans           &trans    &trans           &trans          &trans           &trans         &trans
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &mt LG(R) LG(S)  &kp PLUS  &mt TILDE MINUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp COLON
+&trans         &trans     &trans     &trans     &trans     &kt LS(LG(P))    &trans    &trans           &trans          &trans           &trans         &trans     &trans  &trans
+&trans         &trans     &trans     &trans     &trans     &trans           &trans    &trans           &trans          &trans           &trans         &trans
             >;
         };
 
