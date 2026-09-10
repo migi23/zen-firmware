@@ -38,19 +38,19 @@
 
         layer_symbol {
             bindings = <
-&kp ESCAPE     &kp EXCL   &kp DQT    &kp HASH             &kp DOLLAR  &kp PERCENT      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp TILDE
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)            &kp LG(V)   &mt LG(R) LG(S)  &kp PLUS       &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
-&trans         &trans     &trans     &kp INTERNATIONAL_3  &kp PIPE    &kp BACKSLASH    &trans         &trans            &kp AT                &kp QUESTION           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ASTRK  &mt GRAVE CARET
-&trans         &trans     &trans     &trans               &trans      &trans           &trans         &trans            &trans                &trans                 &trans            &trans
+&kp ESCAPE  &kp EXCL   &kp DQT    &kp HASH             &kp DOLLAR    &kp PERCENT    &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp TILDE
+&trans      &kp GRAVE  &kp CARET  &kp ASTRK            &kp QUESTION  &kp AT         &kp PLUS       &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
+&trans      &trans     &trans     &kp INTERNATIONAL_3  &kp PIPE      &kp BACKSLASH  &trans         &trans            &trans                &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans      &trans     &trans     &trans               &trans        &trans         &trans         &trans            &trans                &trans                 &trans            &trans
             >;
         };
 
         layer_number {
             bindings = <
-&kp F11       &kp F1        &kp F2        &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9          &kp F10         &kp F12
-&trans        &kt N1        &kp N2        &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9          &kp N0          &trans
-&trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &kp UP_ARROW  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp F11       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6  &kp F7  &kp F8  &kp F9          &kp F10         &kp F12
+&trans        &kt N1        &kp N2        &kp N3        &kp N4        &kp N5  &kp N6  &kp N7  &kp N8  &kp N9          &kp N0          &trans
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans          &trans          &trans           &kp UP_ARROW  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -65,10 +65,10 @@
 
         layer_shortcut {
             bindings = <
-&trans         &trans     &trans     &trans     &trans     &trans           &trans         &trans           &trans          &trans           &trans         &trans
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &mt LG(R) LG(S)  &kp LG(LS(P))  &mt TILDE MINUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON  &kp COLON
-&trans         &trans     &trans     &trans     &trans     &trans           &trans         &trans           &trans          &trans           &trans         &trans     &trans  &trans
-&trans         &trans     &trans     &trans     &trans     &trans           &trans         &trans           &trans          &trans           &trans         &trans
+&trans         &trans     &trans                &kp LG(MINUS)          &kp LG(PLUS)  &kp LG(N0)       &trans         &trans     &trans  &trans  &trans  &trans
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)             &kp LG(C)              &kp LG(V)     &mt LG(R) LG(S)  &kp LG(LS(P))  &kp LG(D)  &trans  &trans  &trans  &trans
+&kp LS(LG(O))  &kp LS(R)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(A)     &kp LS(LG(R))    &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans                &trans                 &trans        &trans           &trans         &trans     &trans  &trans  &trans  &trans
             >;
         };
 
