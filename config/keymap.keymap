@@ -101,10 +101,10 @@
 
         layer_9 {
             bindings = <
-&kp ESCAPE  &kp EXCL   &kp DQT    &kp HASH             &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp DELETE
-&kp ASTRK   &kp GRAVE  &kp CARET  &kp INT_YEN          &kp PIPE    &kp BACKSLASH  &kp PLUS       &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
-&kp ASTRK   &kp GRAVE  &kp CARET  &kp INTERNATIONAL_3  &kp PIPE    &kp BACKSLASH  &trans         &trans            &kp AT                &kp QUESTION           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp RIGHT_ALT
-&kp TILDE   &trans     &trans     &trans               &trans      &trans         &trans         &trans            &kp RIGHT_COMMAND     &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW
+&kp ESCAPE     &kp EXCL   &kp DQT    &kp HASH             &kp DOLLAR  &kp PERCENT      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp DELETE
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)            &kp LG(V)   &mt LG(R) LG(S)  &kp PLUS       &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
+&kp ASTRK      &kp GRAVE  &kp CARET  &kp INTERNATIONAL_3  &kp PIPE    &kp BACKSLASH    &trans         &trans            &kp AT                &kp QUESTION           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp RIGHT_ALT
+&kp TILDE      &trans     &trans     &trans               &trans      &trans           &trans         &trans            &kp RIGHT_COMMAND     &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW
             >;
         };
     };
