@@ -65,10 +65,10 @@
 
         layer_shortcut {
             bindings = <
-&trans         &trans     &trans                &kp LG(MINUS)          &kp LG(PLUS)  &kp LG(N0)       &trans         &trans     &trans  &trans  &trans  &trans
-&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)             &kp LG(C)              &kp LG(V)     &mt LG(R) LG(S)  &kp LG(LS(P))  &kp LG(D)  &trans  &trans  &trans  &trans
-&kp LS(LG(O))  &kp LS(R)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(A)     &kp LS(LG(R))    &trans         &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans     &trans                &trans                 &trans        &trans           &trans         &trans     &trans  &trans  &trans  &trans
+&trans         &trans     &trans                &kp LG(MINUS)          &kp LG(PLUS)  &kp LG(N0)       &trans         &trans     &trans                &trans                  &trans            &trans
+&kp LS(LG(Z))  &kp LG(Z)  &kp LG(X)             &kp LG(C)              &kp LG(V)     &mt LG(R) LG(S)  &kp LG(LS(P))  &kp LG(D)  &kp LS(LA(UP_ARROW))  &kp LA(LS(DOWN_ARROW))  &kp LS(LC(W))     &kp LC(U)
+&kp LS(LG(O))  &kp LS(R)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(A)     &kp LS(LG(R))    &trans         &trans     &trans                &trans                  &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &trans  &trans
+&trans         &trans     &trans                &trans                 &trans        &trans           &trans         &trans     &trans                &trans                  &trans            &trans
             >;
         };
 
