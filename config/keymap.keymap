@@ -38,10 +38,10 @@
 
         layer_symbol {
             bindings = <
-&kp ESCAPE   &kp EXCL  &kp DQT        &kp HASH   &kp DOLLAR  &kp PERCENT   &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp TILDE
-&kp INT_YEN  &kp PIPE  &kp BACKSLASH  &kp GRAVE  &kp CARET   &kp ASTERISK  &kp PLUS       &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON     &kp COLON
-&trans       &trans    &trans         &trans     &trans      &trans        &trans         &trans            &kp QUESTION          &kp AT_SIGN            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp UNDERSCORE
-&trans       &trans    &trans         &trans     &trans      &trans        &trans         &trans            &trans                &trans                 &trans            &trans
+&kp ESCAPE  &kp EXCL  &kp DQT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt EQUAL MINUS   &mt CARET TILDE
+&trans      &trans    &trans   &trans    &trans      &trans       &trans         &trans            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS          &kp ASTERISK
+&trans      &trans    &trans   &trans    &trans      &trans       &trans         &trans            &trans                &kp AT_SIGN            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp UNDERSCORE
+&trans      &trans    &trans   &trans    &trans      &trans       &trans         &trans            &trans                &kp BACKSLASH          &kp PIPE          &kp INT_YEN
             >;
         };
 
