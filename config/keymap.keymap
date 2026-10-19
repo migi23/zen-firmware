@@ -23,16 +23,16 @@
 &kp TAB    &kp Q          &kp W         &kp E             &kp R        &kp T        &kp Y      &kp U      &kp I              &kp O           &kp P           &kp BSPC
 &kp LCTRL  &kp A          &kp S         &kp D             &kp F        &kp G        &kp H      &kp J      &kp K              &kp L           &kp SEMI        &kp ENTER
 &kp LSHFT  &kp Z          &kp X         &kp C             &kp V        &kp B        &mo 5      &mo 5      &kp N              &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp RIGHT_SHIFT
-&kp CAPS   &kp LG(SPACE)  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LANG2  &lt 2 LANG1  &kp SPACE  &kp SPACE  &kp RIGHT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp CAPS   &kp LA(SPACE)  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LANG2  &lt 2 LANG1  &kp SPACE  &kp SPACE  &kp RIGHT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LG(I))         &kp LA(LC(LEFT_ARROW))  &msc SCRL_UP    &kp LA(LG(RIGHT_ARROW))  &kp LA(LG(U))          &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1                &msc SCRL_DOWN  &mkp MB2                 &kp RG(RIGHT_BRACKET)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                  &kp LG(R)       &kp LS(LG(T))            &mkp MB3               &kp LG(W)  &kp LG(LS(R))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                  &trans          &trans                   &trans                 &trans
+&trans  &kp LG(LS(T))  &kp LG(LS(R))  &kp LG(LA(LEFT))      &kp LG(LA(RIGHT))      &kp LG(LA(U))  &trans                &trans    &msc SCRL_UP    &trans    &trans                 &trans
+&trans  &kp LG(W)      &kp LG(R)      &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LA(I))  &kp RG(LEFT_BRACKET)  &mkp MB1  &msc SCRL_DOWN  &mkp MB2  &kp RG(RIGHT_BRACKET)  &trans
+&trans  &trans         &trans         &trans                &trans                 &trans         &trans                &trans    &trans          &trans    &mkp MB3               &trans  &trans  &trans
+&trans  &trans         &trans         &trans                &trans                 &trans         &trans                &trans    &trans          &trans    &trans                 &trans
             >;
         };
 
